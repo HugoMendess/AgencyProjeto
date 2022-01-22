@@ -99,3 +99,28 @@ body{
     margin-top: 40px;
     font-size: 1.1em;
 }
+
+.section-title-buttons{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-started{
+    background-color: #3E3FD8;
+    padding: 20px;
+    width: 200px;
+    margin: 0 25px;
+    color: #fff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-started a{
+    color: #fff;
+    font-size: 1.1em;
+    margin: 0 10px;
+    font-family: "Jost" Arial, Helvetica, sans-serif;
+}
+
