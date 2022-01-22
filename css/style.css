@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 16px;
+
     
 }
 
@@ -13,8 +15,12 @@ a{
 body{
     background-color: #EEF4FF;
 }
+
 .container{
     max-width: 1120px;
+    margin: 0 auto;
+}
+.container-header{
     margin: 36px auto;
     display: flex;
     flex-wrap: wrap;
@@ -23,17 +29,24 @@ body{
     z-index: 2;
 }
 
+
 .header-menu ul li{
     list-style-type: none;
-    margin: 0 40px;
+    margin: 0 25px;
     font-family: 'Jost', sans-serif;
     color: #61646B;
     font-weight: bold;
+
+}
+
+.header-menu ul li a{
+    font-size: 1.3em;
 }
 
 .header-menu ul{
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .btn-sign-up{
@@ -49,20 +62,40 @@ body{
     color: #3E3FD8;
     font-family: "Jost", sans-serif;
     font-weight: bold;
+    font-size: 1.2em;
 }
 
 #header-fundo{
     position: absolute;
-    right: 0;
+    right: -40px;
     top: 0;
     z-index: -1;
     
 }
 
 /* Section 1 */
-.img-principal{
-    position: relative;
-    right: -625px;
-    top: -150px;
+
+.section-one{
+   display: flex;
+   justify-content: center;
 }
 
+.img-principal{
+    position: relative;
+    right: -70px;
+    top: -50px;
+}
+
+.section-title{
+    margin-top: 100px;
+}
+.section-title h1{
+    font-size: 4em;
+    font-weight: bold;
+    color: #2E323B;
+}
+
+.section-title p{
+    margin-top: 40px;
+    font-size: 1.1em;
+}
