@@ -16,6 +16,8 @@ body{
     background-color: #EEF4FF;
 }
 
+
+
 .container{
     max-width: 1120px;
     margin: 0 auto;
@@ -27,6 +29,7 @@ body{
     justify-content: space-between;
     line-height: 36px;
     z-index: 2;
+    
 }
 
 
@@ -41,6 +44,15 @@ body{
 
 .header-menu ul li a{
     font-size: 1.3em;
+}
+
+.header-menu ul li a:hover{
+    background-color: #61646B;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: -10px -15px;
+    transition: 0.6s;
 }
 
 .header-menu ul{
@@ -63,17 +75,22 @@ body{
     font-family: "Jost", sans-serif;
     font-weight: bold;
     font-size: 1.2em;
+   
+}
+
+.btn-sign-up{
+    margin-right: 45px;
 }
 
 #header-fundo{
     position: absolute;
-    right: -40px;
+    right: 0px;
     top: 0;
     z-index: -1;
     
 }
 
-/* Section 1 */
+/* Section 1  -------------------------------------------------------------------*/
 
 .section-one{
    display: flex;
@@ -82,7 +99,7 @@ body{
 
 .img-principal{
     position: relative;
-    right: -70px;
+    right: -30px;
     top: -50px;
 }
 
@@ -104,6 +121,9 @@ body{
     margin-top: 40px;
     display: flex;
     justify-content: center;
+
+    
+
 }
 
 .btn-started{
@@ -122,5 +142,248 @@ body{
     font-size: 1.1em;
     margin: 0 10px;
     font-family: "Jost" Arial, Helvetica, sans-serif;
+}
+
+.btn-watch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.btn-watch a{
+    margin: 0 16px;
+}
+
+.btn-clients{
+    position: absolute;
+    bottom: -30px;
+    right: 522px;
+}
+
+
+/* Section 2  -------------------------------------------------------------------*/
+
+.section-two-main{
+    background-color: #fff;
+    margin-top: -220px;
+}
+
+.section-two{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-two h2{
+    font-size: 3em;
+    font-weight: bold;
+    color: #2E323B;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.section-two .clients-img{
+   margin-left: 60px;
+}
+
+/* Section 3 ------------------------------------------------------------------- */
+
+.section-three-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    background-color: #fff;
+}
+
+.section-three-info{
+    margin-bottom: 100px;
+}
+.section-three-info h2{
+    font-size: 3em;
+    margin-bottom: 40px;
+  
+}
+
+.section-three-info ul li{
+    list-style-type: none;
+}
+
+.section-three-list{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.section-three-list div{
+    margin-top: 10px;
+}
+
+.section-three-list p{
+    width: 300px;
+}
+
+/* Section 4  -------------------------------------------------------------------*/
+
+.section-four-main{
+    background-color: #fff;
+    padding-top: 200px;
+ 
+}
+
+.section-four-main h2{
+    font-size: 3em;
+    text-align: center;
+    color: #2E323B;
+   
+}
+
+.section-four-main p{
+    font-size: 1.1em;
+    text-align: center;
+    width: 360px;
+    margin: 30px auto;
+    font-family: "Jost", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.section-four-main ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section-four-main ul li{
+    list-style: none;
+    margin: 0 15px;
+
+}
+
+.section-four-main .cards-clients p{
+    width: 300px;
+    text-align: justify;
+    margin: 10px 0 20px 0;
+}
+
+.section-four-main .cards-clients a{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.section-four-main .cards-clients{
+    padding: 0 20px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.33, #fff), color-stop(0.67, #fff));
+    background-image: -moz-linear-gradient(center bottom, #fff 33%, #fff 67% );
+    box-shadow: 5px 5px 5px 5px #61646B; /* Criando borda sobre o quadrado com as infos */
+}
+
+.img-section-four{
+    position: relative;
+    left: -50px;
+}
+
+.bg-two{
+    border: 3px solid #7D83FC !important;
+}
+
+
+/* Section 5  -------------------------------------------------------------------*/
+
+.section-five-main{
+    background-color: #fff;
+    padding-top: 200px;
+}
+
+.cont-section-main{
+   display: flex;
+  flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+.section-five-recruiter{
+    width: 450px;
+}
+
+.section-five-recruiter h2{
+    font-size: 3em;
+    margin: 20px 0;
+}
+
+.section-five-recruiter p{
+    width: 450px;
+    margin: 40px 0;
+}
+
+/* Section 6  -------------------------------------------------------------------*/
+
+.section-six-main{
+    background-color: #fff;
+    padding: 80px 0;
+}
+.section-bg{
+    text-align: center;
+}
+
+.container span{
+    font-family: "JOST", Arial, Helvetica, sans-serif;
+    color: #3E3FD8;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.container h2{
+    font-size: 3em;
+    margin: 40px 0;
+    color: #2E323B;
+}
+
+.list-peooples{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.list-peooples li{
+    list-style-type: none;
+}
+
+.list-peooples .cards-peooples{
+    border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0 20px;
+
+   
+}
+
+.cards-peooples p{
+   width: 300px;
+   text-align: justify;
+   margin: 20px 0;
+}
+
+.cards-infos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cards-peooples h4{
+ 
 }
 
