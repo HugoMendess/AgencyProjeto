@@ -285,7 +285,7 @@ body{
     border: 1px solid #fff;
     background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.33, #fff), color-stop(0.67, #fff));
     background-image: -moz-linear-gradient(center bottom, #fff 33%, #fff 67% );
-    box-shadow: 5px 5px 5px 5px #61646B; /* Criando borda sobre o quadrado com as infos */
+    box-shadow: 2px 2px 2px 2px #61646B; /* Criando borda sobre o quadrado com as infos */
 }
 
 .img-section-four{
@@ -294,7 +294,7 @@ body{
 }
 
 .bg-two{
-    border: 3px solid #7D83FC !important;
+    border: 2px solid #7D83FC !important;
 }
 
 
@@ -336,14 +336,15 @@ body{
     text-align: center;
 }
 
-.container span{
+.section-bg span{
     font-family: "JOST", Arial, Helvetica, sans-serif;
     color: #3E3FD8;
     font-size: 1.5em;
     font-weight: bold;
+    letter-spacing: 0.5em;
 }
 
-.container h2{
+.section-bg h2{
     font-size: 3em;
     margin: 40px 0;
     color: #2E323B;
@@ -369,7 +370,6 @@ body{
 
    
 }
-
 .cards-peooples p{
    width: 300px;
    text-align: justify;
@@ -378,12 +378,96 @@ body{
 
 .cards-infos{
     display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cards-infos .infos-peooples{
+    margin: 0px 20px;
+    text-align: left;
+}
+
+.infos-peooples h4{
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #2E323B;
+
+}
+
+.infos-peooples strong{
+    color: #61646B;
+    font-family: "Jost", Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+.cards-peooples{
+    border-radius: 15px;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.33, #fff), color-stop(0.67, #fff));
+    background-image: -moz-linear-gradient(center bottom, #fff 33%, #fff 67% );
+    box-shadow: 1px 1px 1px 1px #61646B; /* Criando borda sobre o quadrado com as infos */
+}
+
+/* Section 7  -------------------------------------------------------------------*/
+
+.section-seven-main{
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.section-seven-main h2{
+    color: #2E323B;
+    font-size: 3em;
+}
+
+.section-seven-main p{
+    color: #61646B;
+    font-size: 1.1em;
+    margin: 20px 0 60px 0;
+}
+
+.list-peooples-cards{
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.cards-peooples h4{
- 
+.list-peooples-cards li{
+    list-style-type: none;
 }
 
+
+
+.peooples-dados{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.peooples-dados span{
+    font-size: 1.2em;
+    letter-spacing: 0;
+}
+
+.peooples-dados div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.peooples-infos p{
+    width: 250px;
+    text-align: justify;
+}
+.peooples-infos{
+    padding: 10px 10px;
+    margin: 0 15px;
+    border-radius: 15px;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.33, #fff), color-stop(0.67, #fff));
+    background-image: -moz-linear-gradient(center bottom, #fff 33%, #fff 67% );
+    box-shadow: 1px 1px 1px 1px #3E3FD8; /* Criando borda sobre o quadrado com as infos */
+}
