@@ -19,7 +19,7 @@ body{
 
 
 .container{
-    max-width: 1120px;
+    max-width: 1240px;
     margin: 0 auto;
 }
 .container-header{
@@ -233,6 +233,7 @@ body{
 .section-four-main{
     background-color: #fff;
     padding-top: 200px;
+    padding-bottom: 30px;
  
 }
 
@@ -294,7 +295,7 @@ body{
 }
 
 .bg-two{
-    border: 2px solid #7D83FC !important;
+    border: 2px solid #3E3FD8 !important;
 }
 
 
@@ -302,7 +303,7 @@ body{
 
 .section-five-main{
     background-color: #fff;
-    padding-top: 200px;
+    padding-top: 300px;
 }
 
 .cont-section-main{
@@ -365,8 +366,8 @@ body{
 .list-peooples .cards-peooples{
     border: 1px solid #fff;
     border-radius: 15px;
-    padding: 10px;
-    margin: 0 20px;
+    padding: 15px 30px;
+    
 
    
 }
@@ -464,10 +465,37 @@ body{
     text-align: justify;
 }
 .peooples-infos{
-    padding: 10px 10px;
-    margin: 0 15px;
+    padding: 10px 15px;
+    margin: 0 10px;
+    border: 1px solid #2E323B;
     border-radius: 15px;
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.33, #fff), color-stop(0.67, #fff));
-    background-image: -moz-linear-gradient(center bottom, #fff 33%, #fff 67% );
-    box-shadow: 1px 1px 1px 1px #3E3FD8; /* Criando borda sobre o quadrado com as infos */
+    /* box-shadow: 1px 1px 1px 1px #3E3FD8;  */
 }
+
+/* Section 8  -------------------------------------------------------------------*/
+.section-eight-main{
+    background-color: #fff;
+}
+.input-text{
+    width: 740px !important;
+    margin: 40px auto;
+}
+.cont-text{
+    text-align: center;
+}
+
+.section-eight-main p{
+    width: 490px;
+    margin: 0 auto;
+}
+
+.section-eight-main span{
+    font-size: 1.5em;
+    font-family: "Jost", Arial, Helvetica, sans-serif;
+    letter-spacing: 15px;
+    color: #3E3FD8;
+    font-weight: bold;
+    
+}
+
+.
